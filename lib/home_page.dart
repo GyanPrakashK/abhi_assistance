@@ -147,7 +147,7 @@ class _HomePageState extends State<HomePage> {
           } else {
             initSpeechToText();
           }
-        },
+        }, 
         child: Icon(Icons.mic),
       ),
     );
