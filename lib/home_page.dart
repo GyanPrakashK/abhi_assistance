@@ -163,7 +163,7 @@ class _HomePageState extends State<HomePage> {
                 children: [
                   SlideInRight(
                     delay: Duration(microseconds: start),
-                    child:const FeaturesBox(
+                    child: const FeaturesBox(
                         color: Pallete.firstSuggestionBoxColor,
                         headtext: 'ChatGPT',
                         descriptiontext:
@@ -179,7 +179,7 @@ class _HomePageState extends State<HomePage> {
                   ),
                   SlideInUp(
                     delay: Duration(microseconds: start + 2 * delay),
-                    child:const FeaturesBox(
+                    child: const FeaturesBox(
                         color: Pallete.thirdSuggestionBoxColor,
                         headtext: 'Smart Voice Assistant',
                         descriptiontext:
